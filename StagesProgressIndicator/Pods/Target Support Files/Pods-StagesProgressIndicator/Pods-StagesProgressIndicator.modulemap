@@ -1,0 +1,6 @@
+framework module Pods_StagesProgressIndicator {
+  umbrella header "Pods-StagesProgressIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
