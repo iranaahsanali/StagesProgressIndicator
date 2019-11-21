@@ -14,7 +14,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
   spec.source       = { :git => "https://github.com/iranaahsanali/StagesProgressIndicator.git", :tag => spec.version }
 
-  spec.source_files = 'StagesProgressIndicator/Views/**/*.swift'
+  spec.source_files = 'StagesProgressIndicator/**/*.swift'
   spec.requires_arc = true
+  spec.module_name  = 'StagesProgressIndicator'
 
 end
