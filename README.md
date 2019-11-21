@@ -3,9 +3,15 @@
 
 Stages Progress Indicator, highly customizable, written in Swift.
 
-![Preview](https://youtu.be/8qKxXh88ZR4)
+![Preview](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/animation.gif)
 
-Check this <a href="https://youtu.be/8qKxXh88ZR4">project on Youtube</a>.
+![alt tag](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/ProgressHeaderBar.png)
+
+![alt tag](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/ProgressBar.png)
+
+
+
+Check this <a href="https://youtu.be/8qKxXh88ZR4">project preview on Youtube</a>.
 
 ## Requirements
 
@@ -154,3 +160,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
