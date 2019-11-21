@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestReportProgressBars' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  # Pods for TestReportProgressBars
+  pod 'StagesProgressIndicator', :path => '~/Documents/Libraries/StagesProgressIndicator/'
+
+end

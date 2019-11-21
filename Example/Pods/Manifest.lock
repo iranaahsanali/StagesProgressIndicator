@@ -1,0 +1,16 @@
+PODS:
+  - StagesProgressIndicator (0.0.1)
+
+DEPENDENCIES:
+  - StagesProgressIndicator (from `~/Documents/Libraries/StagesProgressIndicator/`)
+
+EXTERNAL SOURCES:
+  StagesProgressIndicator:
+    :path: "~/Documents/Libraries/StagesProgressIndicator/"
+
+SPEC CHECKSUMS:
+  StagesProgressIndicator: 472eeaa3670be0bc7948f3f8fcdc58182f20b830
+
+PODFILE CHECKSUM: 4a7c76da863851977536ac78c91ec1fbddfbd3e6
+
+COCOAPODS: 1.8.3
