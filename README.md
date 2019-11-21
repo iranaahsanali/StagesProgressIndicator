@@ -3,7 +3,7 @@
 
 Stages Progress Indicator, highly customizable, written in Swift.
 
-![Preview](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/short-preview.gif)
+![Preview](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/preview-1.gif)
 
 ![alt tag](https://raw.github.com/iranaahsanali/StagesProgressIndicator/master/Assets/preview_image.png)
 
