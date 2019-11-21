@@ -17,5 +17,4 @@ Pod::Spec.new do |spec|
   spec.source_files = 'StagesProgressIndicator/**/*.swift'
   spec.requires_arc = true
   spec.module_name  = 'StagesProgressIndicator'
-
 end
