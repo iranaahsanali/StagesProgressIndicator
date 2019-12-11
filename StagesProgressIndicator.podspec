@@ -2,6 +2,7 @@ Pod::Spec.new do |spec|
   spec.name           = 'StagesProgressIndicator'
   spec.version        = '0.1.1'
   spec.swift_version  = '5.0'
+  spec.platform = :ios, '9.0'
   spec.homepage = 'https://github.com/iranaahsanali/StagesProgressIndicator'
   spec.summary = "Stages Progress Indicator highly customizable  written in Swift."
   spec.screenshot = 'https://raw.githubusercontent.com/iranaahsanali/StagesProgressIndicator/master/Assets/preview_image.png'
