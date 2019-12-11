@@ -7,24 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00BC276924ED6F3AEE11D93F /* Pods_StagesProgressIndicator_StagesProgressIndicatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C572A9475A642E68237F5F /* Pods_StagesProgressIndicator_StagesProgressIndicatorTests.framework */; };
 		989F26318C3FD51EC660A9A3 /* Pods_StagesProgressIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE08205584E988B5CF3C681 /* Pods_StagesProgressIndicator.framework */; };
-		FA4EE783235884FC00B7751A /* StagesProgressIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EE779235884FB00B7751A /* StagesProgressIndicator.framework */; };
-		FA4EE788235884FC00B7751A /* StagesProgressIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EE787235884FC00B7751A /* StagesProgressIndicatorTests.swift */; };
 		FA4EE78A235884FC00B7751A /* StagesProgressIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4EE77C235884FB00B7751A /* StagesProgressIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAF730F223588A0F004E9796 /* ReportProgressHeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF730F123588A0F004E9796 /* ReportProgressHeaderBar.swift */; };
 		FAF730F423588B0B004E9796 /* ReportProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF730F323588B0B004E9796 /* ReportProgressBar.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA4EE784235884FC00B7751A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA4EE770235884FB00B7751A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA4EE778235884FB00B7751A;
-			remoteInfo = StagesProgressIndicator;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F6DEA210AE2C338570B9AEF /* Pods-StagesProgressIndicator-StagesProgressIndicatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StagesProgressIndicator-StagesProgressIndicatorTests.debug.xcconfig"; path = "Target Support Files/Pods-StagesProgressIndicator-StagesProgressIndicatorTests/Pods-StagesProgressIndicator-StagesProgressIndicatorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -36,7 +23,6 @@
 		FA4EE779235884FB00B7751A /* StagesProgressIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StagesProgressIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4EE77C235884FB00B7751A /* StagesProgressIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StagesProgressIndicator.h; sourceTree = "<group>"; };
 		FA4EE77D235884FB00B7751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA4EE782235884FC00B7751A /* StagesProgressIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StagesProgressIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4EE787235884FC00B7751A /* StagesProgressIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesProgressIndicatorTests.swift; sourceTree = "<group>"; };
 		FA4EE789235884FC00B7751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF730F123588A0F004E9796 /* ReportProgressHeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportProgressHeaderBar.swift; sourceTree = "<group>"; };
@@ -49,15 +35,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				989F26318C3FD51EC660A9A3 /* Pods_StagesProgressIndicator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA4EE77F235884FC00B7751A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA4EE783235884FC00B7751A /* StagesProgressIndicator.framework in Frameworks */,
-				00BC276924ED6F3AEE11D93F /* Pods_StagesProgressIndicator_StagesProgressIndicatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				FA4EE779235884FB00B7751A /* StagesProgressIndicator.framework */,
-				FA4EE782235884FC00B7751A /* StagesProgressIndicatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,25 +141,6 @@
 			productReference = FA4EE779235884FB00B7751A /* StagesProgressIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FA4EE781235884FC00B7751A /* StagesProgressIndicatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA4EE790235884FC00B7751A /* Build configuration list for PBXNativeTarget "StagesProgressIndicatorTests" */;
-			buildPhases = (
-				76917D1AA0F68DA1355C476E /* [CP] Check Pods Manifest.lock */,
-				FA4EE77E235884FC00B7751A /* Sources */,
-				FA4EE77F235884FC00B7751A /* Frameworks */,
-				FA4EE780235884FC00B7751A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA4EE785235884FC00B7751A /* PBXTargetDependency */,
-			);
-			name = StagesProgressIndicatorTests;
-			productName = StagesProgressIndicatorTests;
-			productReference = FA4EE782235884FC00B7751A /* StagesProgressIndicatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,9 +154,6 @@
 					FA4EE778235884FB00B7751A = {
 						CreatedOnToolsVersion = 11.1;
 						LastSwiftMigration = 1110;
-					};
-					FA4EE781235884FC00B7751A = {
-						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
@@ -217,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				FA4EE778235884FB00B7751A /* StagesProgressIndicator */,
-				FA4EE781235884FC00B7751A /* StagesProgressIndicatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,38 +183,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA4EE780235884FC00B7751A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76917D1AA0F68DA1355C476E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StagesProgressIndicator-StagesProgressIndicatorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B39A351AA77440A6F06E34EE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,23 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA4EE77E235884FC00B7751A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA4EE788235884FC00B7751A /* StagesProgressIndicatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA4EE785235884FC00B7751A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA4EE778235884FB00B7751A /* StagesProgressIndicator */;
-			targetProxy = FA4EE784235884FC00B7751A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FA4EE78B235884FC00B7751A /* Debug */ = {
@@ -492,46 +400,6 @@
 			};
 			name = Release;
 		};
-		FA4EE791235884FC00B7751A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6DEA210AE2C338570B9AEF /* Pods-StagesProgressIndicator-StagesProgressIndicatorTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA2AB5T54T;
-				INFOPLIST_FILE = StagesProgressIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iranaahsanali.StagesProgressIndicatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FA4EE792235884FC00B7751A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E4810ED78860B3575BC559B /* Pods-StagesProgressIndicator-StagesProgressIndicatorTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA2AB5T54T;
-				INFOPLIST_FILE = StagesProgressIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iranaahsanali.StagesProgressIndicatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -549,15 +417,6 @@
 			buildConfigurations = (
 				FA4EE78E235884FC00B7751A /* Debug */,
 				FA4EE78F235884FC00B7751A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA4EE790235884FC00B7751A /* Build configuration list for PBXNativeTarget "StagesProgressIndicatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA4EE791235884FC00B7751A /* Debug */,
-				FA4EE792235884FC00B7751A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
