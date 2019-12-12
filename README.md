@@ -1,5 +1,5 @@
 ## StagesProgressIndicator
-[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](https://cocoapods.org/?q=segmentio) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/Yalantis/Segmentio/blob/master/LICENSE) ![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg) 
+[![Platform](http://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](https://cocoapods.org/?q=StagesProgressIndicator) [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/iranaahsanali/StagesProgressIndicator/blob/master/LICENSE) ![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg) 
 
 Stages Progress Indicator, highly customizable, written in Swift.
 
